@@ -1,0 +1,134 @@
+body{
+    background-color: #e1e1e1;
+}
+h3{
+    margin: 0 6px;
+   
+    font-weight:normal;
+    white-space: nowrap;/*不换行*/
+    display: block;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+   
+}
+em,i{font-style:normal;}
+header {
+    background: #444;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+
+}
+
+.container{
+    width: 1400px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    width: 120px;
+    padding: 10px 40px 10px;
+
+
+}
+
+:where(.css-dev-only-do-not-override-1sn0ohr).ant-input-group .ant-input-group-addon {
+    background-color: white;
+
+
+}
+
+:where(.css-dev-only-do-not-override-1sn0ohr).ant-input-group-wrapper-lg .ant-input-group-addon {
+    border-radius: 25px;
+}
+
+:where(.css-dev-only-do-not-override-1sn0ohr).ant-input-lg {
+    border-radius: 25px;
+
+}
+ul{
+    display: flex;
+    margin-right: 20px;
+}
+ul>li{
+    list-style-type:none;
+    margin: 0 6px;
+    color: #ccc;
+   
+}
+.top{
+    background-color: #f6f6f6;
+    border-radius: 5px 5px 0 0;
+    font-size: 14px;
+    padding-left: 16px;
+}
+.main{
+    width: 1400px;
+    margin:0 auto;
+   margin-top: 20px;
+ 
+}
+.left{
+    width: 70%;
+    border-radius: 5px 5px 0 0;
+    background-color: #fff;
+}
+:where(.css-dev-only-do-not-override-1sn0ohr).ant-tag {
+font-size: 14px;
+margin: 6px 0;
+color: #80bd01;
+}
+:where(.css-dev-only-do-not-override-1sn0ohr).ant-tag-checkable:not(.ant-tag-checkable-checked):hover {
+    color: #005580;
+}
+:where(.css-dev-only-do-not-override-1sn0ohr).ant-tag-checkable-checked:hover,:where(.css-dev-only-do-not-override-1sn0ohr).ant-tag-checkable-checked {
+    color: white;
+    background-color: #80bd01;
+}
+.cell{
+
+   
+    display: flex;
+    justify-content:space-between;
+}
+.cell-left,.cell-right{
+    display: flex;
+    align-items: center;
+    padding:10px
+}
+.cell-left{
+    width: 77%;
+}
+em{
+    color: #b4b4b4;
+    font-size: 10px;
+    margin-right: 6px;
+}
+i{
+    color: #9e78c0;
+    font-size: 10px;
+}
+.cell-left-number{
+    width: 70px;
+}
+.cell-left>img{
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+.cell-right>img{
+    width: 18px;
+    height: 18px;
+}
+.day{
+    font-size: 12px;
+    color: #778087;
+    margin-left: 20px;
+}
